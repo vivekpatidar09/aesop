@@ -1,0 +1,117 @@
+.SectionSeven {
+  display: flex;
+  color: black;
+  height: 650px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SectionSeven .sec1 {
+  display: flex;
+  width: 35%;
+  color: black;
+  height: 63%;
+  padding: 5px 40px;
+}
+
+.SectionSeven img {
+  width: 100px;
+  height: 100px;
+}
+
+.SectionSeven .col2 {
+  /* color: white; */
+
+  width: 356px;
+  margin: 0 40px;
+}
+
+.SectionSeven .col2 h4 {
+  font-weight: 500;
+}
+
+.SectionSeven .col2 h1 {
+  font-weight: 500;
+  font-family: "Zapf Humanist", serif;
+}
+
+.SectionSeven p {
+  line-height: 28px;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 30px 0px;
+  text-align: start;
+}
+
+.SectionSeven .col2 .btn {
+  background: transparent;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  width: 260px;
+  height: 39px;
+  padding: 4px 19px;
+  border: 1px solid rgb(126, 126, 126);
+  font-size: 15px;
+}
+
+/* .SectionSeven .sec2 {
+    width: 73%;
+    height: 100%;
+  } */
+
+.SectionSeven .sec2 img {
+  width: 747px;
+  height: 400px;
+}
+
+@media (max-width: 575.98px) {
+  .SectionSeven .sec2 img {
+    width: 409px;
+    margin-right: 100px;
+    height: 250px;
+  }
+
+  .SectionSeven .sec1 {
+    display: flex;
+    width: 100%;
+    padding: 0;
+  }
+
+  .SectionSeven {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SectionSeven .col2 {
+    /* color: white; */
+    width: 356px;
+    margin: 25px 21px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .SectionSeven {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SectionSeven .sec1 {
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .SectionSeven .col2 {
+    /* color: white; */
+    width: 518px;
+  }
+
+  .SectionSeven .sec2 img {
+    width: 747px;
+    height: 400px;
+    margin-right: 124px;
+  }
+}

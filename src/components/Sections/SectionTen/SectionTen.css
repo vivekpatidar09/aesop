@@ -1,0 +1,167 @@
+.SectionTen {
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  align-items: center;
+}
+
+.SectionTen .sec1 {
+  display: flex;
+  width: 35%;
+  color: black;
+  height: 63%;
+  padding: 0px 40px;
+}
+
+.SectionTen .sec1 img {
+  width: 100px;
+  height: 100px;
+}
+
+.SectionTen .sec1 .col2 {
+  /* color: white; */
+
+  width: 336px;
+  margin: 0 40px;
+}
+
+.SectionTen .sec1 .col2 h4 {
+  font-weight: 400;
+  text-align: start;
+}
+
+.SectionTen .sec1 .col2 h1 {
+  font-weight: 500;
+  margin: 0;
+  text-align: start;
+  font-family: "Zapf Humanist", serif;
+}
+
+.SectionTen .sec1 p {
+  line-height: 28px;
+  font-weight: 500;
+  font-size: 17px;
+  margin: 30px 0;
+  text-align: start;
+}
+
+.SectionTen .sec2 {
+  width: 739px;
+}
+
+.mainSec {
+  display: flex;
+}
+
+.SectionTen .sec1 .col2 .btn {
+  background: transparent;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  width: 260px;
+  height: 39px;
+  padding: 4px 19px;
+  border: 1px solid rgb(126, 126, 126);
+  font-size: 15px;
+}
+
+.SectionTen {
+  /* display: flex; */
+  text-align: center;
+  /* padding: 70px; */
+}
+
+.SectionTen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.SectionTen .scrollImg {
+  width: 350px;
+}
+
+.SectionTen .scrollImg h4,
+p,
+img {
+  text-align: center;
+}
+
+.SectionTen .scrollImg p {
+  margin: 10px 0;
+}
+
+.SectionTen .scrollImg h4 {
+  text-align: start;
+  font-weight: 500;
+}
+
+.SectionTen .scrollImg img {
+  width: 747px;
+  height: 400px;
+}
+
+.SectionTen .scrollImg img:nth-child(7) {
+  height: 160px;
+  width: 381px;
+}
+
+@media (max-width: 575.98px) {
+  .SectionTen .mainSec {
+    overflow: hidden;
+    display: flex;
+    width: 380px;
+    flex-direction: column;
+  }
+
+  .SectionTen .scrollImg img {
+    width: 409px;
+    height: 237px;
+  }
+
+  .SectionTen .sec2 {
+    width: 559px;
+  }
+
+  .SectionTen .sec1 .col2 {
+    /* color: white; */
+    /* width: 391px; */
+    margin: 40px 10px;
+  }
+
+  .SectionTen .sec1 {
+    padding: 0px 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .SectionTen {
+    display: flex;
+    margin: 30px 0;
+    flex-direction: column;
+  }
+
+  .SectionTen .sec1 {
+    padding: 0;
+  }
+
+  .SectionTen .sec1 {
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .SectionTen .col2 {
+    /* color: white; */
+    width: 518px;
+  }
+
+  .mainSec {
+    display: flex;
+    flex-direction: column;
+  }
+}

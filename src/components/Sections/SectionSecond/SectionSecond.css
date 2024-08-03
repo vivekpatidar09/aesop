@@ -1,0 +1,167 @@
+.slide1 {
+  background: url("../../../../public/slide1bgImg.avif");
+  background-color: blue;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 350px;
+  padding: 100px 40px;
+}
+
+.slide1 img {
+  width: 143px;
+  height: 48px;
+}
+
+.slide1 .col2 {
+  color: white;
+  width: 305px;
+  margin: 0 40px;
+}
+
+.slide1 .col2 h1 {
+  font-weight: 500;
+}
+
+.slide1 p {
+  line-height: 25px;
+  font-weight: 600;
+  text-align: start;
+}
+
+.slide1 .col2 .btn {
+  background: transparent;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 4px 23px;
+  border: 1px solid white;
+  font-size: 15px;
+}
+
+/* SLIDE 2 */
+
+.slide2 {
+  background-color: #f6f5e8;
+  display: flex;
+  color: black;
+  height: 550px;
+  justify-content: space-between;
+}
+
+.slide2 .sec1 {
+  display: flex;
+  background-color: #f6f5e8;
+  width: 50%;
+  color: black;
+  height: 100%;
+  padding: 100px 40px;
+}
+
+.slide2 img {
+  width: 100px;
+  height: 100px;
+}
+
+.slide2 .col2 {
+  color: black;
+
+  width: 305px;
+  margin: 0 40px;
+}
+
+.slide2 .col2 h1 {
+  font-weight: 500;
+}
+
+.slide2 p {
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.slide2 .col2 .btn {
+  background: transparent;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 4px 23px;
+  border: 1px solid white;
+  font-size: 15px;
+}
+
+.slide2 .sec2 {
+  width: 50%;
+  height: 350px;
+}
+
+/* .slide2 .sec2 video {
+  width: 40%;
+} */
+
+/* SLIDE 3 */
+
+.slide3 {
+  background-color: #7b7261;
+  display: flex;
+  color: black;
+  height: 550px;
+  justify-content: space-between;
+}
+
+.slide3 .sec1 {
+  display: flex;
+  background-color: #7b7261;
+  width: 50%;
+  color: black;
+  height: 63%;
+  padding: 100px 40px;
+}
+
+.slide3 img {
+  width: 100px;
+  height: 100px;
+}
+
+.slide3 .col2 {
+  color: white;
+
+  width: 305px;
+  margin: 0 40px;
+}
+
+.slide3 .col2 h1 {
+  font-weight: 500;
+}
+
+.slide3 p {
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.slide3 .col2 .btn {
+  background: transparent;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 4px 23px;
+  border: 1px solid white;
+  font-size: 15px;
+}
+
+.slide3 .sec2 {
+  width: 50%;
+  height: 100%;
+}
+
+.slide3 .sec2 img {
+  width: 600px;
+  height: 550px;
+}

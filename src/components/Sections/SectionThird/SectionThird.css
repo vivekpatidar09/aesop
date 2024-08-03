@@ -1,0 +1,45 @@
+.SectionThird {
+  text-align: center;
+  padding: 70px;
+  height: 650px;
+}
+
+.thirdMain {
+  justify-content: center;
+  /* display: flex; */
+}
+
+.SectionThird .product {
+  width: 350px;
+}
+
+.SectionThird .product h4,
+p,
+img {
+  text-align: center;
+}
+
+.SectionThird .product img {
+  height: 384px;
+  width: 332px;
+}
+
+@media (max-width: 575.98px) {
+  .SectionThird .product {
+    width: 271px;
+  }
+
+  .SectionThird .product img {
+    height: 330px;
+    width: 263px;
+  }
+
+  .SectionThird {
+    text-align: center;
+    padding: 70px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

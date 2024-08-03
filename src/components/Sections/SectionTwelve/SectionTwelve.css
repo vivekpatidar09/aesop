@@ -1,0 +1,44 @@
+.SectionTwelve {
+  background-color: #f6f5e8;
+}
+
+.SectionTwelve .cards {
+  display: flex;
+  padding: 64px;
+}
+
+.SectionTwelve .cards .card {
+  width: 347px;
+  padding: 25px;
+}
+
+.SectionTwelve .cards .card h4 {
+  text-align: center;
+  font-size: 14px;
+  margin: 10px auto;
+  color: rgb(50, 50, 50);
+  font-weight: 600;
+}
+
+.SectionTwelve .cards .card p {
+  line-height: 25px;
+  margin: 0px;
+  color: rgb(59, 59, 59);
+  font-size: 14px;
+}
+
+@media (max-width: 575.98px) {
+  .SectionTwelve .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SectionTwelve .cards .card h4,p {
+    text-align: start;
+  }
+
+
+  .SectionTwelve .cards {
+    padding: 0;
+  }
+}

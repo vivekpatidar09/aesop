@@ -1,0 +1,132 @@
+.SectionSix {
+  display: flex;
+  flex-direction: column;
+}
+
+.SectionSix .sec1 {
+  display: flex;
+  width: 35%;
+  color: black;
+  height: 63%;
+  /* padding: 5px 40px; */
+}
+
+.SectionSix .sec1 img {
+  width: 100px;
+  height: 100px;
+}
+
+.SectionSix .sec1 .col2 {
+  /* color: white; */
+
+  width: 336px;
+  margin: 0 40px;
+}
+
+.SectionSix .sec1 .col2 h4 {
+  font-weight: 400;
+  text-align: start;
+}
+
+.SectionSix .sec1 .col2 h1 {
+  font-weight: 500;
+  text-align: start;
+  font-family: "Zapf Humanist", serif;
+}
+
+.SectionSix .sec1 p {
+  line-height: 28px;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: start;
+}
+
+.SectionSix .sec1 .col2 .btn {
+  background: transparent;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  width: 174px;
+  height: 39px;
+  /* padding: 4px 19px; */
+  font-size: 15px;
+}
+
+.SectionSix {
+  /* display: flex; */
+  text-align: center;
+  padding: 70px;
+}
+
+.SectionSix .product {
+  width: 350px;
+}
+
+.SectionSix .product h4,
+p,
+img {
+  text-align: center;
+}
+
+.SectionSix .product p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.SectionSix .product img {
+  height: 364px;
+  width: 381px;
+}
+
+.SectionSix .product img:nth-child(7) {
+  height: 160px;
+  width: 381px;
+}
+
+@media (max-width: 575.98px) {
+  .SectionSix {
+    /* display: flex; */
+    text-align: center;
+    padding: 64px 16px;
+  }
+
+  .SectionSix .product img {
+    height: 316px;
+    width: 335px;
+  }
+
+  .SectionSix .product {
+    width: 350px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .SectionSix .sec1 {
+    display: flex;
+    width: 100%;
+  }
+
+  .SectionSix .sec1 .col2 .btn {
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .SectionSix {
+    margin: 40px 0;
+  }
+
+  .SectionSix .product img {
+    height: 329px;
+    width: 330px;
+  }
+
+  .SectionSix {
+    padding: 70px 30px;
+  }
+}

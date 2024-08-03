@@ -1,0 +1,110 @@
+.SectionFive {
+  display: flex;
+  color: black;
+  height: 650px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SectionFive .sec1 {
+  display: flex;
+  width: 35%;
+  color: black;
+  height: 63%;
+  padding: 5px 40px;
+}
+
+.SectionFive img {
+  width: 100px;
+  height: 100px;
+}
+
+.SectionFive .col2 {
+  /* color: white; */
+
+  width: 356px;
+  margin: 0 40px;
+}
+
+.SectionFive .col2 h4 {
+  font-weight: 500;
+}
+
+.SectionFive .col2 h1 {
+  font-weight: 500;
+  font-family: "Zapf Humanist", serif;
+}
+
+.SectionFive p {
+  line-height: 28px;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: start;
+}
+
+.SectionFive .col2 .btn {
+  background: transparent;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  width: 260px;
+  height: 39px;
+  padding: 4px 19px;
+  border: 1px solid rgb(126, 126, 126);
+  font-size: 15px;
+}
+
+/* .SectionFive .sec2 {
+  width: 73%;
+  height: 100%;
+} */
+
+.SectionFive .sec2 img {
+  width: 747px;
+  height: 400px;
+}
+
+@media (max-width: 575.98px) {
+  .SectionFive {
+    margin: 30px 0;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SectionFive .sec2 img {
+    width: 361px;
+    height: 275px;
+    margin-left: 100px;
+  }
+
+  .SectionFive .sec1 {
+    display: flex;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .SectionFive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 720px;
+    overflow: hidden;
+  }
+
+  .SectionFive .sec1 {
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .SectionFive .sec2 img {
+    width: 747px;
+    height: 400px;
+    margin-left: 100px;
+  }
+}

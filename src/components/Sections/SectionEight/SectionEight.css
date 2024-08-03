@@ -1,0 +1,125 @@
+.SectionEight {
+  display: flex;
+  color: black;
+  height: 650px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SectionEight .sec1 {
+  display: flex;
+  width: 35%;
+  color: black;
+  height: 63%;
+  padding: 5px 40px;
+}
+
+.SectionEight img {
+  width: 100px;
+  height: 100px;
+}
+
+.SectionEight .col2 {
+  /* color: white; */
+
+  width: 356px;
+  margin: 0 40px;
+}
+
+.SectionEight .col2 h4 {
+  font-weight: 500;
+}
+
+.SectionEight .col2 h1 {
+  font-weight: 500;
+  font-family: "Zapf Humanist", serif;
+}
+
+.SectionEight p {
+  line-height: 28px;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: start;
+}
+
+.SectionEight .col2 .btn {
+  background: transparent;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  width: 260px;
+  height: 39px;
+  padding: 4px 19px;
+  border: 1px solid rgb(126, 126, 126);
+  font-size: 15px;
+}
+
+/* .SectionEight .sec2 {
+      width: 73%;
+      height: 100%;
+    } */
+
+.SectionEight .sec2 img {
+  width: 747px;
+  height: 400px;
+}
+
+@media (max-width: 575.98px) {
+
+  
+  .SectionEight .sec2 img {
+    width: 409px;
+    margin-left: 94px;
+    height: 242px;
+  }
+
+  .SectionEight .sec1 {
+    display: flex;
+    width: 100%;
+    padding: 0;
+  }
+
+  .SectionEight {
+    color: black;
+    margin: 50px 0;
+    height: 478px;
+  }
+
+  .SectionEight {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SectionEight .col2 {
+    /* color: white; */
+    width: 356px;
+    margin: 0 21px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .SectionEight {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+  }
+
+  .SectionEight .sec2 img {
+    width: 747px;
+    height: 400px;
+    margin-left: 100px;
+  }
+
+  .SectionEight .sec1 {
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .SectionEight .col2 {
+    /* color: white; */
+    width: 518px;
+  }
+}
